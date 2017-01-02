@@ -1,0 +1,50 @@
+.contact-info {
+    float: left;
+    margin-top: 100px;
+
+    @media screen and (max-width: 992px)  {
+        margin-top: 30px;
+        float: none;
+        text-align: center;
+    }
+
+        .contact {
+            font-size: 5.5em;
+            color: #4D4D4D;
+            font-weight: 500;
+
+            @media screen and (max-width: 992px)  {
+                font-size: 4.5em;
+            }
+
+        }
+        .social {
+            margin-top: 109px;
+            font-size: 2.5em;
+            word-spacing: 10px;
+        }
+        .phone-email {
+            p {
+                margin: 0;
+                padding-top: 10px;
+                font-size: 1.5em;
+            }
+        }
+    }
+.pic-contact {
+    float: left;
+    margin: 150px 124px;
+
+    @media screen and (max-width: 1200px)  {
+        margin: 162px 28px;
+    }
+    @media screen and (max-width: 992px)  {
+        margin: 120px 0;
+        float: none;
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        border-radius: 20px;
+    }
+}

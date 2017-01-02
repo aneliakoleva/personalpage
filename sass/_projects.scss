@@ -1,0 +1,61 @@
+.projects-heading {
+
+font-size: 5.5em;
+margin-top: 150px;
+color: #4D4D4D;
+font-weight: 500;
+text-transform :uppercase;
+
+    @media screen and (max-width: 480px)  {
+        font-size: 4.5em;
+        margin-top: 60px;
+    }
+}
+.projects {
+    border-top: 1px solid #8b8b8b;
+    border-bottom: 1px solid #8b8b8b;
+
+    .projects-section {
+        margin: 50px 0;
+
+        .projects-pic {
+            margin-top: 25px;
+            img{
+                width: 100%;
+            }
+
+            .slick-dots li button {
+                &:before {
+                font-size: 30px;
+                }
+            }
+        }
+        .link-project {
+            position: relative;
+            background-color: rgba(97, 208, 212, 1);
+            border-radius: 50%;
+            margin: 25px 0 40px;
+            width: 145px;
+            height: 145px;
+
+            @media screen and (max-width: 768px) {
+                display: block;
+                margin: 0 auto;
+            }
+            span  {
+                position: absolute;
+                top: 60px;
+                left: 26px;
+
+                a{
+                    color: white;
+                    font-size: 1.3em;
+                    text-decoration: none;
+                }
+            }
+        }
+        .projects-info {
+            margin: 20px;
+        }
+    }
+}

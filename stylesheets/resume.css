@@ -1,0 +1,54 @@
+.resume-heading {
+  font-size: 5.5em;
+  margin-top: 150px;
+  color: #4D4D4D;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 992px) {
+  .resume-heading {
+    text-align: center;
+  }
+}
+
+.resume {
+  border-top: 1px solid #8b8b8b;
+  border-bottom: 1px solid #8b8b8b;
+  margin: 84px 0;
+}
+.resume .skills-section {
+  padding: 40px 0;
+}
+@media screen and (max-width: 992px) {
+  .resume .skills-section {
+    padding: 40px 100px;
+  }
+}
+.resume .skills-section .skills {
+  color: white;
+  width: 175px;
+  height: 175px;
+  background-color: #e83556;
+  border-radius: 50%;
+  position: relative;
+}
+@media screen and (max-width: 763px) {
+  .resume .skills-section .skills {
+    margin: 30px 20px;
+  }
+}
+.resume .skills-section .skills .skills-button {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.resume .skills-section .skills-info span {
+  font-size: 1.5em;
+}
+.resume .skills-section .skills-info ul {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
